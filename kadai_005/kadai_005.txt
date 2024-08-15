@@ -1,12 +1,23 @@
-commit f3fccf39bfec8d727636001a94c6a9ecb059a0a1 (HEAD -> main)
-Author: tiiupom <chococo.lav1013.pom@gmail.com>
-Date:   Thu Aug 15 19:47:23 2024 +0900
+PS C:\Users\minil> cd C:\Users\minil\OneDrive\デスクトップ\terakoya
+PS C:\Users\minil\OneDrive\デスクトップ\terakoya> mkdir git_challenge
 
-    こんにちは世界を追加
 
-commit 8ae6bcff46c4dd85949be7a75fee1c914abcb09e
-Author: tiiupom <chococo.lav1013.pom@gmail.com>
-Date:   Thu Aug 15 19:46:04 2024 +0900
+    ディレクトリ: C:\Users\minil\OneDrive\デスクトップ\terakoya
 
-    変更
-:
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/08/15     20:34                git_challenge
+PS C:\Users\minil\OneDrive\デスクトップ\terakoya> cd git_challenge        
+PS C:\Users\minil\OneDrive\デスクトップ\terakoya\git_challenge> git init  
+erakoya/git_challenge/.git/
+PS C:\Users\minil\OneDrive\デスクトップ\terakoya\git_challenge> git add hello_world!.txt
+PS C:\Users\minil\OneDrive\デスクトップ\terakoya\git_challenge> git commit -m "hello,world!を追加"
+[main (root-commit) 1899e49] hello,world!を追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world!.txt
+PS C:\Users\minil\OneDrive\デスクトップ\terakoya\git_challenge> git add hello_world!.txt
+PS C:\Users\minil\OneDrive\デスクトップ\terakoya\git_challenge> git commit -m "こんにちは、世界！を追加"
+PS C:\Users\minil\OneDrive\デスクトップ\terakoya\git_challenge> git log --oneline
+c732477 (HEAD -> main) こんにちは、世界！を追加
+1899e49 hello,world!を追加
